@@ -42,7 +42,7 @@ const routes: Routes = [
   { path: 'teacher-result', component: TeacherResultComponent},
   { path: 'teacher-homework', component: TeacherHomeworkComponent},
   { path: 'teacher-attendance', component: AttendanceComponent},
-  { path: 'teacher-add-mark', component: AddMarkComponent}
+  { path: 'teacher-add-mark', component: AddMarkComponent},
   { path: 'student-ask-question', component:AskQuestionComponent}
 ];
 
