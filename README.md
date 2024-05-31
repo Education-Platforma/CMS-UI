@@ -9,6 +9,16 @@
 ##### 3: Projectimiz clone qilingan joyga `npm install` commandasi ishga tushuriladi CMDida
 ##### 4: Projectimiz run qilish uchun `ng serve` qilinadi
 ##### 5: Projectimizni default holatda [`localhost:4200`](https://localhost:4200) da topishingiz va ishlatib korishingiz mumkin
-##### `Qo'sjimcha:` Front-Endni run qilishingiz o'zi yetarli ma'lumotlarni serverdagi Back-Endan olib keladi. Agar back-endni ham ozingizda ran qilmoqchi bolsangiz, environments folderini ichidagi environment.deployment.ts file ichidagi urlni o'zgartirishingiz kifoya. Back-Endni ushbu [link](https://github.com/AbuProgrammiy/CMS) orqali olishingiz mumkin 
+##### `Qo'sjimcha:` Front-Endni run qilishingiz o'zi yetarli, ma'lumotlarni serverdagi Back-Endan olib keladi. Agar back-endni ham ozingizda run qilmoqchi bolsangiz, environments folderini ichidagi environment.deployment.ts file ichidagi urlni o'zgartirishingiz kifoya. Back-Endni ushbu [link](https://github.com/AbuProgrammiy/CMS) orqali olishingiz mumkin 
+#
+#
+### Birinchi navbatda siz `login-menu` page ko'rinadi:
+##### u yerda siz teacher bo'limini tanlab email=`maqsud@gmail.com` password=`Maqsudkhan` CID data orqali login qilishingiz mumkin.
+##### Va siz director sifatida kirgan istalga cardni tanlaysiz va ong tarafda side bar ochiladi, barcha qila oladigan ishlaringi usha yerda boladi
+##### Aga Teacher/Student login qilmoqchi bolsa emailini  va emailiga yuborilgan passwordni kiritib login qiladi
+#
+## Sinab korishingiz uchun [Fornt-End](https://cms.tohirjon.uz/) va [Back-End](https://cms-api.tohirjon.uz/swagger/index.html) serverga joylangan
+#
+#
+## Natijalardan parchalarni ko'rishingiz mumkin:
 
-### Birinchi navbatda siz `login-menu` page ko'rinadi
