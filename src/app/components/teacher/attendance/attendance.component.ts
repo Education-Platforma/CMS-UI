@@ -69,6 +69,7 @@ export class AttendanceComponent implements OnInit {
     // for (let index = 0; index < isPresent.length; index++) {
       
     // }
+    var isEnter = false;
     this.studentList.forEach((student: any, index: number) => {
       data.studentId = student.id;
       data.isPresent = isPresent[index].checked;
@@ -79,8 +80,14 @@ export class AttendanceComponent implements OnInit {
       // }
       console.log(isPresent[index].checked);
       this.lessonService.PostAttendance(data).subscribe((res) => {
+        isEnter = true;
         console.log(res);
       });
     });
+
+    //time sleep
+    if(isEnter){
+      alert("Muvaffaqiyatli saqlandi");
+    }
   }
 }
