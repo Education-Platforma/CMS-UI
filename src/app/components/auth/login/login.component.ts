@@ -51,6 +51,9 @@ export class LoginComponent {
           if (token.Role == 'Student') this.router.navigate(['/student-login']);
           else if (token.Role == 'Teacher')
             this.router.navigate(['/teacher-login']);
+          else{
+            alert("Wrong email or password");
+          }
           localStorage.setItem('accessToken', err.error.text);
 
           return err.error.text;
