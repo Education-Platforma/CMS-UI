@@ -17,4 +17,8 @@ export class QuizService {
   getAllQuiz():Observable<QuizGetall>{
     return this.http.get<QuizGetall>(this.baseURL+"/Quiz/GetAllQuizes")
   }
+
+  create(creteCommand:any):Observable<any>{
+    return this.http.post<any>(this.baseURL+"/Quiz/CreateQuiz",creteCommand)
+  }
 }

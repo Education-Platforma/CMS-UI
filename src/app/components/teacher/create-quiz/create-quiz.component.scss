@@ -1,0 +1,30 @@
+.inner-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero{
+    width: 50%;
+    height: 800px;
+    padding-top: 200px;
+}
+
+.inner-hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.question{
+    width: 50%;
+    border: 2px solid red;
+    height: 40px;
+}
+
+.answear{
+    width: 50%;
+    border: 2px solid green;
+    height: 40px;
+}

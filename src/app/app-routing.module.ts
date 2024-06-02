@@ -31,6 +31,7 @@ import { CreateTeacherComponent } from './components/auth/create-teacher/create-
 import { CreateClassComponent } from './components/admin/create-class/create-class.component';
 import { TeacherQuestionsComponent } from './components/teacher/teacher-questions/teacher-questions.component';
 import { StudentEventComponent } from './components/user/student-event/student-event.component';
+import { CreateQuizComponent } from './components/teacher/create-quiz/create-quiz.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -54,6 +55,7 @@ const routes: Routes = [
   { path: 'student-answer', component: AnswerComponent },
   { path: 'student-ask-question', component: AskQuestionComponent },
   { path: 'student-events', component: StudentEventComponent},
+  {path:"create-quiz",component:CreateQuizComponent},
   
   { path: 'teacher-login', component: TeacherLoginComponent },
   { path: 'form', component: FormComponent },
