@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class NotFoundComponent {
   constructor(private router:Router){
     setTimeout(() => {
-      this.router.navigate(['/login']); 
+      this.router.navigate(['/student-login']); 
     }, 1500);
   }
 }
