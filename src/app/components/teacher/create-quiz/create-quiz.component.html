@@ -1,0 +1,33 @@
+<app-primary-navbar path="../../../../assets/images/question-logo.png" header="Add Quiz"></app-primary-navbar>
+<div>
+    <app-navbar></app-navbar>
+    <div class="inner-main">
+        <div class="hero">
+            <div class="inner-hero">
+                <input class="question" [(ngModel)]="question" placeholder="Question?" type="text">
+            </div>
+            <div class="inner-hero">
+                <input class="answear" [(ngModel)]="optionA" placeholder="option A" type="text">
+            </div>
+            <div class="inner-hero">
+                <input class="answear" [(ngModel)]="optionB" placeholder="option B"  type="text">
+            </div>
+            <div class="inner-hero">
+                <input class="answear" [(ngModel)]="optionC" placeholder="option C"  type="text">
+            </div>
+            <div class="inner-hero">
+                <input class="answear" [(ngModel)]="optionD" placeholder="option D"  type="text">
+            </div>
+            <div class="inner-hero">
+                <input class="answear" [(ngModel)]="correctOption" placeholder="Correct option" maxlength="1" type="text">
+            </div>
+            <div class="inner-hero">
+                <input (change)="catcher($event)" type="file">
+            </div>
+
+            <div class="inner-hero">
+                <button (click)="create()" class="btn btn-primary">Create</button>
+            </div>
+        </div>
+    </div>
+</div>

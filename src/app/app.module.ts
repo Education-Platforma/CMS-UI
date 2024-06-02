@@ -51,6 +51,7 @@ import { registerLocaleData } from '@angular/common';
 import en from '@angular/common/locales/en';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';import { NzButtonModule } from 'ng-zorro-antd/button';
 import { StudentEventComponent } from './components/user/student-event/student-event.component';
+import { CreateQuizComponent } from './components/teacher/create-quiz/create-quiz.component';
 
 registerLocaleData(en);
 
@@ -102,6 +103,7 @@ registerLocaleData(en);
     SelectComponent,
     TeacherQuestionsComponent,
     StudentEventComponent,
+    CreateQuizComponent,
   ],
   imports: [
     BrowserModule,
